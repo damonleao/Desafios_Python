@@ -11,6 +11,8 @@ while True:
 
     if media >= 6:
         print("ALUNO APROVADO! PARABÉNS!!!")
+    elif media > 4 and media < 6:
+        print("ALUNO EM RECUPERAÇÃO! APROVEITE BEM A NOVA OPORTUNIDADE!")
     else:
         print("ALUNO REPROVADO! ESTUDE MAIS!")
 
@@ -18,3 +20,4 @@ while True:
 
     if continuar == "n":
         break
+
